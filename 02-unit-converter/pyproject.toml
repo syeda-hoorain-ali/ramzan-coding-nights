@@ -1,0 +1,9 @@
+[project]
+name = "unit-converter8"
+version = "0.1.0"
+description = "A multi-category unit converter built with Streamlit, supporting over 14 unit categories, designed for ease of use and accuracy."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.43.0",
+]
