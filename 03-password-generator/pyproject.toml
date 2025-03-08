@@ -1,0 +1,10 @@
+[project]
+name = "03-password-generator"
+version = "0.1.0"
+description = "This project is a simple password generator written in Python."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "clipboard>=0.0.4",
+    "streamlit>=1.43.1",
+]
