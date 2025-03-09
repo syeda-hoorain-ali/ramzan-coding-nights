@@ -22,3 +22,9 @@ def get_money_quotes():
     """Return a random money quote"""
     return  random.choice(money_quotes)
 
+
+# ASGI setup for Vercel
+import os
+if os.getenv("VERCEL"):
+    from mangum import Mangum
+    handler = Mangum(app)
