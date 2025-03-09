@@ -1,0 +1,9 @@
+[project]
+name = "04-simple-api"
+version = "0.1.0"
+description = "This is a simple API project built using FastAPI."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.11",
+]
