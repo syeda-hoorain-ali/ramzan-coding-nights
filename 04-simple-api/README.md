@@ -12,14 +12,14 @@ This is a simple API project built using FastAPI.
 
 2. Install the dependencies:
     ```bash
-    uv install
+    uv pip install .
     ```
 
 ## Running the API
 
 1. Start the FastAPI server:
     ```bash
-    uv run fastapi dev main.py
+    uvicorn src.main:app --reload
     ```
 
 2. Open your browser and navigate to `http://127.0.0.1:8000/docs` to see the interactive API documentation.
