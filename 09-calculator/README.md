@@ -6,6 +6,9 @@
 
 A simple and interactive calculator built with [Streamlit](https://streamlit.io/) using the [streamlit-grid](https://pypi.org/project/streamlit-grid/) for a responsive and visually appealing grid layout.
 
+## Live Demo
+Check out the live version of this Calculator [here](https://calculator8.streamlit.app/).
+
 ## Features
 - Basic arithmetic operations (+, -, *, /)
 - Clear button to reset calculations
