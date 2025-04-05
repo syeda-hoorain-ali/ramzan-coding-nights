@@ -1,0 +1,13 @@
+[project]
+name = "12-simple-chatbot"
+version = "0.1.0"
+description = "This project is a basic implementation of a chatbot using Python."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chainlit>=2.4.400",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
